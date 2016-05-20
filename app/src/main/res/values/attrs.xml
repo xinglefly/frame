@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <attr name="ButtonImage" format="reference"/>
+
+    <declare-styleable name="TabItemView">
+        <attr name="text" format="string"/>
+        <attr name="ButtonImage"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ProgressBarStyle">
+        <item name="android:indeterminateDrawable">@anim/loading_rotate</item>
+        <item name="android:minWidth">@dimen/progress_bar</item>
+        <item name="android:maxWidth">@dimen/progress_bar</item>
+        <item name="android:minHeight">@dimen/progress_bar</item>
+        <item name="android:maxHeight">@dimen/progress_bar</item>
+    </style>
+
+</resources>

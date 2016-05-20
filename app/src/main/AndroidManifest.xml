@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="bytetime.com.app">
+
+    <application
+        android:name=".AndroidApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.FragmentTagsActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data android:name="JRIM_API_HOST" android:value="http://dev.zijieshidai.com:8088/api/v1/"/>
+        <meta-data android:name="EASEMOB_API_URL" android:value="dev.zijieshidai.com:8880"/>
+        <meta-data android:name="EASEMOB_CHAT_ADDRESS" android:value="dev.zijieshidai.com"/>
+        <meta-data android:name="EASEMOB_CHAT_PORT" android:value="5222"/>
+        <meta-data android:name="EASEMOB_APPKEY" android:value="zijieshidai#sandbox"/>
+
+        <meta-data android:name="JRIM_ENABLE_PROXY" android:value="0"/>
+        <meta-data android:name="JRIM_PROXY_HOST" android:value="127.0.0.1"/>
+        <meta-data android:name="JRIM_PROXY_PORT" android:value="8888"/>
+    </application>
+
+</manifest>
